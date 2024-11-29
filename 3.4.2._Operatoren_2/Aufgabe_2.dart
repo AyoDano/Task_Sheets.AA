@@ -62,7 +62,8 @@ if (totalAmount > 200) {
   200 liegt. Wenn ja, dann wird zusätzlich zu dem discount 5 addiert
   */
 
-String result = (discount > 15) ? "Super Spar-Deal!" : (discount > 0 ? "Normaler Rabatt" : "Standardpreis");
+String result = (discount > 15) ? "Super Spar-Deal!" 
+: (discount > 0 ? "Normaler Rabatt" : "Standardpreis");
 
   /*
   String - da ich eine Zeichenkette anzeigen will.
