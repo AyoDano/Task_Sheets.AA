@@ -34,7 +34,7 @@ int totalDaysOfRain = 0;
   if (regen3 > daysOfRain) ++totalDaysOfRain;
 
 
-int commonWindSpeed= 10;
+int commonWindSpeed= 10;    // Berechnung sowie Berücksichtigung vom Null-wert bei Geschwindigkeitsüberschreitung von 10 KM/H 
 int totalWindyDays = 0;
 
 if (wind1 != null && wind1 > commonWindSpeed) totalWindyDays++;

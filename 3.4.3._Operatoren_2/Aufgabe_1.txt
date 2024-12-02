@@ -22,4 +22,4 @@ Deine Aufgabe(N):
 
   erledigt ---    Berechne die Anzahl der Regentage (also Niederschlag > 0).
 
-Berechne, an wie vielen Tagen der Wind stärker als 10 km/h war (nur bei gemessenen Werten).
+  erledigt ---    Berechne, an wie vielen Tagen der Wind stärker als 10 km/h war (nur bei gemessenen Werten).
