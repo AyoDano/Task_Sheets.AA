@@ -1,0 +1,26 @@
+Im Tasksheet hast du bereits eine Ampel programmiert. 
+Diese soll nun so erweitert werden, dass es eine ganze Ampelschaltung wird, 
+mit Ampeln für Autos und Fußgänger.
+
+Am besten, du machst dir ein Git-Repository für die Aufgabe.
+
+Vorgehen:
+
+Erweitere dein Programm für eine Kreuzung. Es gibt also zwei Straßen, 
+die sich kreuzen, von denen abwechselnd eine Grün und die andere Rot hat.
+Mache dies zuerst für Autos.
+
+Nachdem du mit diesem Teil fertig bist: Mache einen Git-Commit.
+Erweitere jetzt noch die Ampel für Fußgänger. Hierbei musst du dir 
+eventuell selber Gedanken machen, was sinnvoll ist und was nicht.
+
+Mache wieder einen Git-Commit.
+
+Welche Erweiterung(en) fallen dir noch ein? Was könnte deine 
+Ampelschaltung noch brauchen? Wie könnte dein Programm noch besser oder interessanter werden?
+
+Wenn du möchtest, baue auch eine entsprechende Ausgabe in das Programm ein, 
+damit man sieht, was passiert. Das Programm kann hierbei endlos laufen 
+(es muss dann durch ctrl+c im Terminal abgebrochen werden).
+
+Hinweis: Um zu warten, importiere ‘dart:io’ und verwende sleep(Duration(seconds:1));

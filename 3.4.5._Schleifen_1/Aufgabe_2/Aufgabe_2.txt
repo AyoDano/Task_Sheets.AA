@@ -1,0 +1,11 @@
+Punktedurchschnitt
+
+Verwende eine For-Each bzw. For-In Schleife, um den Durchschnitt 
+der Punkte auszurechnen. Hierbei musst du die 
+Punkte addieren und die Summe durch die Länge der Liste teilen.
+
+Du benötigst vermutlich: 
+Eine Extra-Variable für den Durchschnitt.
+Die Länge der Liste (points.length).
+
+Wie sieht dein Code aus?

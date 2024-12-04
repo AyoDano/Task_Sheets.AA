@@ -1,0 +1,19 @@
+
+Für dieses Blatt werden wieder die Listen aus dem Kernblatt verwendet:
+
+
+// Noten der Teilnehmer
+List<int> points = [4, 5, 4, 2, 6, 6, 3];
+List<String> names = [ 'Julietta', 'Benjamino', 'Hans-Günther',   
+                       'Evalinea', 'Fiona', 'Gregory', 'Leonhart'];
+
+------------------------
+
+Aufgabe:
+
+Teilnehmer und Punkte
+Schreibe Code, der alle Namen und ihre Punkte in einer Map speichert. Hierbei kannst du davon ausgehen, dass die Position einer Punktzahl mit der Position des Teilnehmers übereinstimmt.
+
+Die Map sollte also immer “Namen: Punktzahl” haben. 
+
+Wie sieht dein Code aus?

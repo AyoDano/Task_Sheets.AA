@@ -1,0 +1,21 @@
+Die folgenden Aufgaben beschäftigen sich mit beispielhaften 
+Teilnehmern der App Akademie.
+
+Hierbei sollst du die For-Each-Schleife zur Hilfe nehmen, 
+um bestimmte Fakten herauszufinden.
+
+Gegeben sind die folgenden zwei Listen:
+
+List<int> points = [4, 5, 4, 2, 6, 6, 3];
+
+List<String> names = ['Julietta', 'Benjamino', 'Hans-Günther',   
+                         'Evalinea', 'Fiona', 'Gregory', 'Leonhart'];
+
+Aufgabe 1:
+
+Alle Namen
+
+Verwende eine For-Each bzw. For-In Schleife, um alle Namen auszugeben. 
+Hierbei muss die Laufvariable vom Typ String sein.
+
+Wie sieht dein Code aus?

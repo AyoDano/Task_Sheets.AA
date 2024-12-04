@@ -1,0 +1,22 @@
+Für dieses Blatt werden wieder die Listen aus dem Kernblatt verwendet:
+
+
+// Noten der Teilnehmer
+List<int> points = [4, 5, 4, 2, 6, 6, 3];
+List<String> names = [ 'Julietta', 'Benjamino', 'Hans-Günther',   
+                       'Evalinea', 'Fiona', 'Gregory', 'Leonhart'];
+
+------------------------
+
+Aufgabe:
+
+Zahlenmuster
+
+Nun sollst du die gerade erstellte Map verwenden.
+
+Schreibe drei Schleifen:
+Gib alle Namen aus.
+Gib alle Punkte aus.
+Gib alle Namen und Punkte aus.
+
+Wie sieht dein Code jeweils aus?

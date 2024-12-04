@@ -1,0 +1,15 @@
+Implementiere ein Programm, das den Wochentag basierend auf 
+einer numerischen Eingabe ausgibt. Verwende dazu eine Switch-Case-Anweisung.
+
+Spezifische Anforderungen:
+
+Wenn die Eingabe 1 ist, gib "Montag" aus.
+Wenn die Eingabe 2 ist, gib "Dienstag" aus.
+Wenn die Eingabe 3 ist, gib "Mittwoch" aus.
+Wenn die Eingabe 4 ist, gib "Donnerstag" aus.
+Wenn die Eingabe 5 ist, gib "Freitag" aus.
+Wenn die Eingabe 6 oder 7 ist, gib "Wochenende" aus.
+Für alle anderen Eingaben gib "Ungültige Eingabe" aus.
+
+Hinweis: Verwende das Fall-Through-Szenario, um die 
+Ausgabe für die Eingaben 6 und 7 gleich zu halten.

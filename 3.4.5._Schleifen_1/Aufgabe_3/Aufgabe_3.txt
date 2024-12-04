@@ -1,0 +1,15 @@
+Summe Sechzehn
+
+Gehe so lange durch die Liste, bis die Summe der Punkte gleich 
+oder größer 16 ist. 
+
+Du benötigst vermutlich: 
+
+Eine Variable für die Summe.
+
+Das Schlüsselwort (break;),
+um die Schleife abzubrechen, wenn die 
+Summe gleich oder größer 16 ist. Die Summe 
+wird mit jeder neu angeschauten Zahl hochgezählt.
+
+Wie sieht dein Code aus?
