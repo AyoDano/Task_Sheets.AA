@@ -1,0 +1,38 @@
+Diese Aufgabe verknüpft viele Teile deines bisher erworbenen Wissens. 
+Versuchst du, diese Aufgabe zu lösen, wirst du viele Konzepte der nächsten 
+Wochen noch besser verstehen können.
+
+In einem Online-Shop können Kunden Produkte bewerten. 
+Jede Bewertung besteht aus einer Sternebewertung (1-5 ganze Sterne) 
+und einem optionalen Kommentar. Implementiere ein Programm zur 
+Analyse dieser Bewertungen.
+
+Erstelle drei Produktbewertungen
+
+Jede Bewertung ist eine Map mit den Keys 'rating' und 'comment'
+
+Verwende mindestens einmal den Wert null
+
+Die genauen Daten sind dir überlassen
+
+Berechne:
+Durchschnittliche Bewertung des Produkts (Beachte null-Werte!)
+Anzahl der Bewertungen ohne Kommentar
+Anzahl der vollständigen Bewertungen (rating und comment nicht null)
+
+Zur Auffrischung:
+
+// Map erstellen
+var rezension = {'rating': 5, 'comment': 'Super Produkt'};
+// oder
+Map rezension = {'rating': 5, 'comment': 'Super Produkt'};
+
+// Auf Map zugreifen
+rezension['rating']     // gibt 5 zurück
+rezension['comment']    // gibt 'Super Produkt' zurück
+
+
+Schaue auch im Knowledge Center unter Komplexe Datentypen vorbei für mehr Informationen zu Maps!
+
+Übrigens: Wir benutzen hier übrigens eine Map, um eine Rezension als ein eigenständiges “Ding” zu verpacken. Andernfalls wären rating und comment ja jedes mal neue Variablen.
+

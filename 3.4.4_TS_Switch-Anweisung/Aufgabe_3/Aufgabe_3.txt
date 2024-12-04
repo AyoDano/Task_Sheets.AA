@@ -1,0 +1,4 @@
+Erstelle ein Dart-Programm, das eine Ampel mit Hilfe 
+einer Switch-Case-Anweisung simuliert.
+Unterscheide hierbei zwischen den verschiedenen 
+Farbmöglichkeiten der Ampel.

@@ -1,0 +1,34 @@
+Füge die cases ein, sodass:
+
+Zwischen “male” und “female” unterschieden wird 
+(im Beispiel auf 2 Gender beschränkt)
+
+Jeweils die Durchschnittsgrößen für das Alter…
+
+Zwischen 20 und 25
+Zwischen 25 und 30
+Zwischen 30 und 35
+
+…ausgegeben werden
+
+
+switch (gender) {
+   case _____:
+     switch (age) {
+       case _____:
+         print("Im Schnitt 181,4m");
+       case _____:
+         print("Im Schnitt 181,3m");
+       case _____:
+         print("Im Schnitt 180,4m");
+     }
+   case _____:
+     switch (age) {
+       case _____:
+         print("Im Schnitt 167,5m");
+       case _____:
+         print("Im Schnitt 167,3 m");
+       case _____:
+         print("Im Schnitt 167,2");
+     }
+ }

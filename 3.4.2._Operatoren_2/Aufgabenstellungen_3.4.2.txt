@@ -1,0 +1,63 @@
+AUFGABE 1
+
+Du entwickelst einen kleinen Ü18-Filmabend-Checker. 
+
+(1)
+Erstelle drei Variablen:
+
+- age (Alter der Person)
+- hasParentalConsent (Erlaubnis der Eltern vorhanden?)
+- movieAgeRating (Altersfreigabe des Films)
+
+(2)
+Schreibe eine Bedingung mit logischen Operatoren, die prüft ob:
+
+- Die Person alt genug für den Film ist ODER
+- Die Person die Erlaubnis der Eltern hat UND nicht mehr als 2 Jahre unter der Altersfreigabe liegt
+
+(3) Speichere das Ergebnis in einer Variable "canWatchMovie" und gib diese mit einem ternären Operator aus: 
+"Filmfreigabe erteilt" oder "Keine Freigabe"
+
+(4) 
+Teste deine Lösung mit diesen Werten:
+Test 1: age = 15, hasParentalConsent = true, movieAgeRating = 16
+Test 2: age = 13, hasParentalConsent = false, movieAgeRating = 16
+
+-------------------------------
+
+AUFGABE 2
+
+Ein Online-Shop bietet verschiedene Rabatte an. Implementiere einen Rabattrechner mit folgenden Regeln:
+
+                    (% 2 - da immer 1 oder 0 ruskommt)
+
+(1)
+Gegeben sind:
+
+- totalAmount (Gesamtbetrag der Bestellung)
+- isStudent (Boolean: ist der Kunde Student?)
+- hasVoucher (Boolean: hat der Kunde einen Gutschein?)
+- isLoyalCustomer (Boolean: ist es ein Stammkunde?)
+
+Rabattregeln:
+
+1. Studenten bekommen immer 5% Rabatt
+2. Stammkunden bekommen 10% Rabatt
+3. Ein Gutschein gibt 15% Rabatt
+4. Es gilt immer nur der höchste Rabatt
+5. Bei Bestellungen über 200€ gibt es zusätzlich 5% Extra-Rabatt
+
+
+(3)
+
+Berechne:
+
+1. Den anzuwendenden Rabatt in Prozent
+2. Nutze einen ternären Operator um auszugeben:
+    - Bei Rabatten über 15%: "Super Spar-Deal!"
+    - Bei Rabatten bis 15%: "Normaler Rabatt"
+    - Bei keinem Rabatt: "Standardpreis"
+
+Teste deine Lösung mit:
+    - Test 1: totalAmount = 150, isStudent = true, hasVoucher = false, isLoyalCustomer = false
+    - Test 2: totalAmount = 250, isStudent = false, hasVoucher = true, isLoyalCustomer = true

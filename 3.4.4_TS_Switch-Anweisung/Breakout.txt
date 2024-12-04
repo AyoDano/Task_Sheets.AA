@@ -1,0 +1,55 @@
+Aufgabenstellung: Würfelspiel "Mäxchen" in Dart
+Programmiert das Würfelspiel "Mäxchen" in Dart. 
+Bei diesem Spiel würfeln zwei Spieler jeweils einen Würfel, 
+und die Würfelwerte werden ausgewertet. Eure Aufgabe ist es, 
+das Spiel gemäß den folgenden Regeln zu implementieren:
+
+Eingabe:
+
+Lege zwei ganze Zahlen a und b im Bereich von 1 bis 6 
+als Variablen in der main-Methode an. 
+
+Diese Zahlen repräsentieren die Ergebnisse der Würfel.
+
+Regeln zur Auswertung:
+
+Pasch: Wenn beide Zahlen gleich sind, gib Pasch <Zahl> aus 
+(z. B. Pasch 4 bei a = 4 und b = 4).
+
+Mäxchen: Wenn die Zahlen 1 und 2 (in beliebiger Reihenfolge) sind, 
+gib Maexchen aus.
+
+Größte zweistellige Zahl: In allen anderen Fällen bilde die größte mögliche 
+zweistellige Zahl mit den beiden Würfelwerten und gib diese aus 
+(z. B. 43 bei a = 3 und b = 4).
+
+Sortiere die Würfelzahlen:
+Stelle sicher, dass a immer die kleinere und b die größere Zahl ist, 
+bevor die Regeln angewendet werden.
+
+Ausgabe:
+Gib das Ergebnis entsprechend den Regeln über print auf der Konsole aus.
+
+Beispiele:
+Eingabe:
+a = 3, b = 5
+
+Ausgabe:
+53
+
+Eingabe:
+a = 1, b = 2
+
+Ausgabe:
+Maexchen
+
+Eingabe:
+a = 4, b = 4
+
+Ausgabe:
+Pasch 4
+
+Hinweis: Teste das Programm mit verschiedenen Kombinationen 
+von a und b, um sicherzustellen, dass alle Regeln korrekt umgesetzt werden.
+
+Task_Sheets.AA

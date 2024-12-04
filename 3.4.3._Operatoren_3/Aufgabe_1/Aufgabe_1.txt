@@ -1,0 +1,25 @@
+Du sollst ein Programm für den Wetterdienst schreiben. 
+Das Programm hat schon für drei Tage die Temperatur (in °C),
+die Niederschlagsmenge (in mm) und optional die Windgeschwindigkeit 
+(in km/h) gespeichert.
+
+Kopiere das in dein VS Code:
+void main() {
+  // Wetterdaten für drei Tage
+  double temp1 = 22.5, temp2 = 19.8, temp3 = 25.2;
+
+  double regen1 = 0.0, regen2 = 12.5, regen3 = 0.5;
+
+  int? wind1 = 15, wind2 = null, wind3 = 20;
+
+
+ // Hier kommt dann dein Code für die Aufgabe.
+}
+
+Deine Aufgabe(N):
+
+  erledigt ---    Berechne die die Temperaturdifferenz zwischen höchstem und niedrigstem Wert.
+
+  erledigt ---    Berechne die Anzahl der Regentage (also Niederschlag > 0).
+
+  erledigt ---    Berechne, an wie vielen Tagen der Wind stärker als 10 km/h war (nur bei gemessenen Werten).

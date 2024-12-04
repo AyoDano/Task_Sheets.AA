@@ -1,0 +1,21 @@
+Welchen Wert haben a und b nach Ausführung dieses Codes?
+
+
+int a = 6;
+String b = "vier";
+
+
+switch (b) {
+    case "eins":
+        a = 1;
+    case "zwei":
+        a = 2;
+    case "drei":
+        a = 3;
+    case "vier":
+        a = 4;
+}
+
+Durch das Switchen von b dessen case "vier" lautet wird a auf dessen wert gesetzt. Dieser Beträgt nun nicht mehr 6 sondern ist nun 4.
+a ist gleich: 4
+b ist gleich: vier
