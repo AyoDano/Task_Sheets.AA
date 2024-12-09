@@ -1,0 +1,75 @@
+Operatoren, Laufzeit und Schleifen
+
+INTRO
+
+In den letzten Wochen hast du einiges kennengelernt: 
+Variablen, Konstanten, Operatoren, If-Bedingungen, 
+verschiedene Schleifen, Eingabe und Ausgabe. Du hast gelernt, 
+wie du in Dart ein kleines Programm schreibst, unter der Verwendung 
+von VSCode. Außerdem hast du verstanden, wie du Git und GitHub verwendest.
+
+Nun sollst du dieses Wissen für deine eigene App anwenden, 
+indem du eine sehr simple Kommandozeilen-Version deiner App 
+schreibst. In diesem Projektblatt sollen die Grundlagen dafür 
+gelegt werden, indem du erst ein Git-Repository anlegst und dann 
+das Grundgerüst für das Programm erstellst.
+
+Viel Spaß 🙂
+
+------------------------
+
+AUFGABE 1
+
+1.  Zuerst solltest du ein Repository einrichten, 
+    in dem die Kommandozeilenversion deiner App leben kann:
+
+2.  Erstelle ein GitHub-Projekt für eine Kommandozeilen-Version deiner App-Idee.
+
+
+3.  Füge dem Projekt eine README.md hinzu, in der die Grundidee deiner 
+    App beschrieben ist. Du kannst dich hierfür am Projektsheet “Projektübersicht 
+    - Eigene App-Idee” orientieren, in dem du die Grundidee bereits aufgeschrieben hast.
+
+
+4.  Erstelle dann eine main.dart Datei, die du committest und pusht. 
+    Hier soll in der nächsten Aufgabe der Code entstehen.
+
+
+5.  Falls das GitHub-Repository nicht public ist, lade deinen 
+    Dozent und die Tutoren dazu ein.
+
+------------------------
+
+AUFGABE 2
+
+Bevor du mit Programmieren loslegst, musst du dir erstmal Gedanken machen, welche 
+Funktionalitäten du in dein Mini-Programm einbauen möchtest. Wähle hierfür 2-4 der 
+Funktionalitäten vom Projektblatt “Projektübersicht - Eigene App-Idee” aus der Aufgabe 
+“MVP” aus, die wichtig für deine App sind.
+
+------------------------
+
+AUFGABE 3
+
+Dein Programm soll Ausgabe und Eingabe haben und durch die Benutzung führen. Jemand 
+Fremdes soll sich schnell zurechtfinden können. Dies soll durch ein Menü geschehen, das du 
+in dieser Aufgabe erstellst.
+
+Gehe die Funktionalitäten, die du in Aufgabe 2 aufgeschrieben hast, durch und erstelle für
+eine nach der anderen einen Menüpunkt. Eventuell bauen diese aufeinander auf: Zum 
+Beispiel könnte der Benutzer erst eingeloggt sein müssen, bevor er etwas posten kann. Das 
+solltest du auch beachten.
+
+So könnte dein Menü aussehen:
+
+Welche Aktion möchtest du machen? (Mit "Enter" bestätigen)
+Nächsten Teil(nehmer) auswählen, Offene/Ausgewählte Teilnehmer anzei(g)en, Ausgewählte zu(r)ücksetzen, (b)eenden
+Eingabe :
+
+Der Gedanke ist, dass das Programm nun die Grund-Idee deiner zukünftigen App zeigt.
+
+Hierbei musst du noch keine fehlerhaften Eingaben abfangen. Konzentriere dich auf etwas, 
+das funktioniert und das du vorführen kannst. Auch werden wir die kommende Zeit noch hilfreiche 
+Dart-Konstrukte kennen lernen, die das Programm übersichtlicher machen
+
+Hinweis: Du kannst dich an der Todo-App aus der Einführung 3.1.1 orientieren.

@@ -1,0 +1,39 @@
+
+AUFGABE 1:
+Schreibt ein Programm fiftyEvens.dart, das alle geraden Zahlen 
+zwischen 0 und 100 (inklusiv) aufsteigend auf der Konsole ausgibt.
+
+AUFGABE 2:
+Schreibt ein Programm byThree.dart, das alle Zahlen zwischen 333 und 222 
+(exklusiv), die ein Vielfaches von 3 sind, absteigend auf der Konsole ausgibt.
+
+
+AUFGABE 3:
+Schreibt ein Programm coffeeCalculator.dart, das die optimale Kaffeemenge (in Gramm) 
+für drei verschiedene Tassenfüllungen findet (kleine, mittlere und große Tasse). 
+
+Die geheime Formel für den perfekten Kaffeegenuss mit der 
+neuen Kaffeemaschine lautet: x³ - 12x² + 41x - 30 = 0, 
+wobei x die Anzahl Gramm Kaffeepulver pro Tasse angibt 
+(es sind nur ganze Zahlen erlaubt). 
+
+Gebt durch systematisches Ausprobieren mit einer Schleife alle möglichen 
+Lösungen zwischen 1 und 10 Gramm aus (Denn nur wenn die Gleichung erfüllt ist, 
+schmeckt der Kaffee den Kunden 😉). Zur Kontrolle: Es gibt insgesamt drei Lösungen.
+
+------------------------------------------------------
+
+BONUS:
+
+Schreibt ein Programm doubleChecksum.dart, das eine gegebene Zahl n nimmt 
+und deren Zweier-Quersumme ausgibt. 
+Die Zweier-Quersumme berechnet sich durch Addieren der einzelnen Teilzahlen 
+bestehend aus 2er Ziffernblöcken einer Zahl von rechts nach links.
+Tipps: Die letzten zwei Ziffern einer Zahl sind der Rest bei einer Division 
+durch 100. Und man kann die letzten beiden Ziffern einer Zahl “abschneiden”, 
+indem man die Zahl durch 100 teilt.
+
+Beispiele: 
+105630703 → 03 + 07 + 63 + 05 + 1 = 79 
+und 
+3637092 → 92 + 70 + 63 + 3 = 228.

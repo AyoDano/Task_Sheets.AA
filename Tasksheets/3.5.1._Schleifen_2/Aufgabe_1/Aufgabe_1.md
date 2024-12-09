@@ -1,0 +1,1 @@
+Printe die Zahlen 1 bis 100. Nutze hierfür eine For Schleife. 
