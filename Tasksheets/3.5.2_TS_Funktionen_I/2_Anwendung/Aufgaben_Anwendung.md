@@ -1,12 +1,3 @@
-## Aufgabenverzeichnis
-Routine                 2
-Zahlenausgabe	        2
-Textwiederholung	    3
-Einfache Berechnungen   4
-Anwendung	            5
-Grußkarten          	5
-Zeitumrechner	        6
-
 Legende Aufgabentypen:
 
 Routine = Einfachste Übungen zum Verinnerlichen von Syntax und grundlegender Mechanik von Funktionen
